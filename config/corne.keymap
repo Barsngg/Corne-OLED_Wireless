@@ -8,6 +8,20 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        activate_numb_layer {
+            bindings = <&mo 1>;
+            key-positions = <15 16>;
+        };
+
+        activate_func_layer {
+            bindings = <&mo 2>;
+            key-positions = <1 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
