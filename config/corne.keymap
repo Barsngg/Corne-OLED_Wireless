@@ -100,6 +100,51 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <39 32>;
         };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <31 20 9>;
+        };
+
+        less {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <41 19 8>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <19 10>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <7 20 33>;
+        };
+
+        greater {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <7 20 39>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <6 19>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <19 8 21>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <40 19 8>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <7 33>;
+        };
     };
 
     keymap {
