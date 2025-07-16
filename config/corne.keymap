@@ -215,6 +215,11 @@
             bindings = <&kp PRINTSCREEN>;
             key-positions = <39 10>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
