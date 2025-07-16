@@ -145,6 +145,21 @@
             bindings = <&kp PERCENT>;
             key-positions = <7 33>;
         };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <7 8 21>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <19 20 9>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <31 32 9>;
+        };
     };
 
     keymap {
