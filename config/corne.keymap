@@ -20,6 +20,36 @@
             bindings = <&mo 2>;
             key-positions = <1 2>;
         };
+
+        dot {
+            bindings = <&kp PERIOD>;
+            key-positions = <21 22>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <19 21 22>;
+        };
+
+        apostrophe {
+            bindings = <&kp APOSTROPHE>;
+            key-positions = <21 8>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <21 20>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <19 20 21>;
+        };
+
+        double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <7 21>;
+        };
     };
 
     keymap {
