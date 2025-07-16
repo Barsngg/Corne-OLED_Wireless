@@ -50,6 +50,26 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <7 21>;
         };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <31 30>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <6 7>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <18 19 20>;
+        };
     };
 
     keymap {
