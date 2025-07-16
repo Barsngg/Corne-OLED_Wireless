@@ -215,6 +215,11 @@
             bindings = <&kp TAB>;
             key-positions = <19 20>;
         };
+
+        mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <40 41>;
+        };
     };
 
     keymap {
