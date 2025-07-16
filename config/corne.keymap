@@ -180,6 +180,41 @@
             bindings = <&kp AMPERSAND>;
             key-positions = <18 20>;
         };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <7 8 9>;
+        };
+
+        page_up {
+            bindings = <&kp PG_UP>;
+            key-positions = <18 21>;
+        };
+
+        page_down {
+            bindings = <&kp PG_DN>;
+            key-positions = <30 33>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <8 9 10>;
+        };
+
+        insert {
+            bindings = <&kp INSERT>;
+            key-positions = <40 41>;
+        };
+
+        reset {
+            bindings = <&kp C_RESET>;
+            key-positions = <1 14 27 16 5>;
+        };
+
+        print_screen {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <39 10>;
+        };
     };
 
     keymap {
