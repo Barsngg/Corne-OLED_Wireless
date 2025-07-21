@@ -220,11 +220,6 @@
             bindings = <&kp C_MUTE>;
             key-positions = <40 41 39>;
         };
-
-        activate_numb_layer {
-            bindings = <&mo 1>;
-            key-positions = <16 15>;
-        };
     };
 
     keymap {
@@ -238,10 +233,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE    &kp Q  &kp W  &kp E         &kp R           &kp T        &kp Y      &kp U         &kp I            &kp O     &kp P      &kp BACKSPACE
-&kp LEFT_ALT  &kp A  &kp S  &kp D         &kp F           &kp G        &kp H      &kp J         &kp K            &kp UP    &kp L      &kp KP_ENTER
-&kp LCTRL     &kp Z  &kp X  &kp C         &kp V           &kp B        &kp N      &kp M         &kp LEFT         &kp DOWN  &kp RIGHT  &kp DELETE
-                            &kp LEFT_WIN  &kp LEFT_SHIFT  &kp SPACE    &kp SPACE  &kp C_VOL_DN  &kp C_VOLUME_UP
+&kp ESCAPE    &kp Q  &kp W  &kp E         &kp R           &kp T        &kp Y  &kp U         &kp I            &kp O     &kp P      &kp BACKSPACE
+&kp LEFT_ALT  &kp A  &kp S  &kp D         &kp F           &kp G        &kp H  &kp J         &kp K            &kp UP    &kp L      &kp KP_ENTER
+&kp LCTRL     &kp Z  &kp X  &kp C         &kp V           &kp B        &kp N  &kp M         &kp LEFT         &kp DOWN  &kp RIGHT  &kp DELETE
+                            &kp LEFT_WIN  &kp LEFT_SHIFT  &kp SPACE    &mo 1  &kp C_VOL_DN  &kp C_VOLUME_UP
             >;
         };
 
