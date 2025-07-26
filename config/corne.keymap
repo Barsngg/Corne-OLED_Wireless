@@ -213,7 +213,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <19 20>;
+            key-positions = <25 26>;
         };
 
         mute {
